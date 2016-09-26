@@ -31,6 +31,9 @@ group :development do
     gem 'capistrano-rails', '~> 1.1', '>= 1.1.8'
     gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
     gem 'capistrano3-puma', '~> 1.2', '>= 1.2.1'
+
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
+
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.1'
