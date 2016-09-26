@@ -32,7 +32,7 @@ group :development do
     gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
     gem 'capistrano3-puma', '~> 1.2', '>= 1.2.1'
 
-gem 'capistrano-passenger',github: "capistrano/rbenv"
+gem 'capistrano-rbenv', github: "capistrano/rbenv"
 
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
