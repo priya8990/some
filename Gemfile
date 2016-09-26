@@ -26,12 +26,11 @@ group :development, :test do
 end
 
 group :development do
-    gem 'capistrano',         require: false
-    gem 'capistrano-rvm',     require: false
-    gem 'capistrano-rails',   require: false
-    gem 'capistrano-bundler', require: false
-    gem 'capistrano3-puma',   require: false
-
+    gem 'capistrano', '~> 3.6', '>= 3.6.1'
+    gem 'capistrano-rvm', '~> 0.1.2'
+    gem 'capistrano-rails', '~> 1.1', '>= 1.1.8'
+    gem 'capistrano-bundler', '~> 1.1', '>= 1.1.4'
+    gem 'capistrano3-puma', '~> 1.2', '>= 1.2.1'
   gem 'web-console',           '3.1.1'
   gem 'listen',                '3.0.8'
   gem 'spring',                '1.7.1'
